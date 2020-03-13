@@ -67,22 +67,24 @@
 //	return 0;
 //}
 //*********************************************************
-//#define LINE 50
-//#define MAX 100
-//int main()
-//{
-//	char arr[LINE][MAX];
-//	int i = 0;
-//	for (i = 0; i < LINE; i++)
-//	{
-//		gets(&arr[i][0]);
-//		if (arr[i][0] == '\0')
-//			break;
-//	}
-//	for (i = 0; arr[i][0]; i++)
-//	{
-//		puts(arr[i]);
-//	}
-//	system("pause");
-//	return 0;
-//}
+#define LINE 50
+#define MAX 100
+int main()
+{
+	char arr[LINE][MAX];
+	int i = 0;
+	for (i = 0; i < LINE; i++)
+	{
+		gets(&arr[i][0]);
+		if (arr[i][0] == '\0')
+			break;
+	}
+	for (i = 0; arr[i][0]; i++)
+	{
+		puts(arr[i]);
+	}
+	system("pause");
+	return 0;
+}
+
+
