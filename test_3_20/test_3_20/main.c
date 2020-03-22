@@ -53,11 +53,17 @@
 //	int count = 0;
 //	while (i <= 100)
 //	{
-//		if ((i % 10 == 9)||(i/10==9))
+//		if (i % 10 == 9)
+//		{
 //			count++;
+//		}
+//			if (i / 10 == 9)
+//		{
+//			count++;
+//		}
 //		i++;
 //	}
-//	printf("%d\n", count);
+//	printf("count=%d\n", count);
 //	system("pause");
 //	return 0;
 //}
@@ -85,21 +91,21 @@
 //{
 //	int arr[10] = {0};
 //	int i = 0;
-//	int ret = 0;
-//	int tmp=arr[0];
 //	printf("请输入十个整数：");
 //	for (i = 0; i < 10; i++)
 //	{
 //		scanf("%d", &arr[i]);
 //	}
+//	int max = arr[0];
+//
 //	for (i = 1; i < 10; i++)
 //	{
-//		if (tmp < arr[i])
+//		if (max < arr[i])
 //		{
-//			tmp = arr[i];
+//			max = arr[i];
 //		}
 //	}
-//	printf("最大整数=%d\n", tmp);
+//	printf("最大整数=%d\n", max);
 //	system("pause");
 //	return 0;
 //}
@@ -107,19 +113,19 @@
 
 
 //在屏幕上输出9*9乘法口诀表
-int main()
-{
-	int i = 0;
-	int j = 0;
-	for (i = 1; i <= 9; i++)
-	{
-		for (j = 1; j <= i;  j++)
-		{
-			printf("%d*%d=%d ", j, i, i*j);
-		}
-		printf("\n");
-	}
-	system("pause");
-	return 0;
-}
-
+//int main()
+//{
+//	int i = 0;
+//	int j = 0;
+//	for (i = 1; i <= 9; i++)
+//	{
+//		for (j = 1; j <= i;  j++)
+//		{
+//			printf("%d*%d=%-2d ", j, i, i*j);
+//		}
+//		printf("\n");
+//	}
+//	system("pause");
+//	return 0;
+//}
+//
