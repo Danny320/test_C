@@ -16,6 +16,10 @@
 //	system("pause");
 //	return 0;
 //}
+
+
+
+
 //void test()
 //{
 //	test();
@@ -34,7 +38,7 @@
 //	{
 //		print_num(num / 10);//每调用一次保存一次num
 //	}
-//	printf("%d", num % 10);
+//	printf("%d ", num % 10);
 //}
 //int main()
 //{
@@ -43,6 +47,9 @@
 //	system("pause");
 //	return 0;
 //}
+
+
+
 //int my_strlen(const char *str)
 //{
 //	/*int count = 0;
@@ -58,7 +65,7 @@
 //	}
 //	else return 0;
 //}
-//int main（）
+//int main()
 //{
 //	char *p = "abcdef";
 //	int ret = my_strlen(p);
@@ -66,6 +73,9 @@
 //	system("pause");
 //	return 0;
 //}
+
+
+
 //int fac(int n)
 //{
 //	if (n <= 0)
@@ -81,6 +91,9 @@
 //	system("pause");
 //	return 0;
 //}
+
+
+
 //int fac(int n)
 //{
 //	int ret = 1;
@@ -95,31 +108,12 @@
 //		}
 //		return ret;
 //	}
+//}
 //int main()
 //{
-//	int ret = fac(4);
+//	int ret = fac(5);
 //	printf("ret=%d\n", ret);
 //	system("pause");
 //	return 0;
 //}
-int main(int argc, char*argv[])
-{
-	int flag = 0;
-	char passwd[];
-	mesmet(passwd, 0, sizeof(passwd));
-	strcpy(passwd, argv[1]);
-	if (0 == strcmp(passwd, "bit-tech"))
-	{
-		flag = 1;
-	}
-	if (flag)
-	{
-		printf("取钱\n");
-	}
-	else
-	{
-		printf("密码错误\n");
-	}
-	system("pause");
-	return 0;
-}
+
