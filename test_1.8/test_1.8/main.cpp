@@ -1,6 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
 #include<stdlib.h>
+////static
 //static int m;
 //void fun1()
 //{
@@ -19,20 +20,29 @@
 //	int i;
 //	for (i = 0; i < 10; i++)
 //	{ 
-//		fun1();
-//		//fun2()
+//		//fun1();
+//		fun2();
 //	}
 //	system("pause");
 //	return 0;
 //}
+
+
+
+
 //int main()
 //{
 //	unsigned int a = -10;
 //	unsigned int b = -1;
 //	printf("%d\n", a + b);
 //	system("pause");
-//	return 0;o
+//	return 0;
 //}
+
+
+
+
+////找数
 //int *find_num(int arr[], int key ,int sz)
 //{
 //	int i = 0;
@@ -63,6 +73,11 @@
 //	system("pause");
 //	return 0;
 //}
+
+
+
+
+////函数求两数和
 //void add(int *psum, int x, int y) 
 //{
 //	*psum = x + y;
@@ -77,24 +92,28 @@
 //	system("pause");
 //	return 0;
 //}
-#define LINE_MAX 1000
-#include<string.h>
-//int getline(char line[],int limit )
-//{
-//	int ch = 0;
-//	int i = 0;
-//	while ((--limit)&&((ch = getchar()) != EOF) && (ch != '\n'))
-//	{
-//		line[i++] = ch;
-//
-//
-//	}
-//	if (ch=='\n')
-//    	line[i++] = ch;
-//	line [i] = '\0';
-//		return i;
-//}
-//另一种方法
+
+
+
+
+//#define LINE_MAX 1000
+//#include<string.h>
+////int getline(char line[],int limit )
+////{
+////	int ch = 0;
+////	int i = 0;
+////	while ((--limit)&&((ch = getchar()) != EOF) && (ch != '\n'))
+////	{
+////		line[i++] = ch;
+////
+////
+////	}
+////	if (ch=='\n')
+////    	line[i++] = ch;
+////	line [i] = '\0';
+////		return i;
+////}
+////另一种方法
 //char*mathed(const char*str, const char*substr)
 //{
 //	const char*str1 = str;
@@ -129,6 +148,3 @@
 //	system("pause");
 //	return 0;
 //}
-什么是静态链接库？
-什么是动态链接库？
-如何创建和使用静态，动态链接库？

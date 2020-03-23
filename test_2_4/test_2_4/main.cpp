@@ -15,7 +15,7 @@
 //	}
 //	return pret;
 //}//不受限制的字符串拷贝
-//****************受限制的字符串拷贝********************
+//////****************受限制的字符串拷贝********************
 //char* strncpy(char*dest, const char*src, size_t n)
 //{
 //	char*pret = dest;
@@ -26,14 +26,14 @@
 //		*dest++ = *src++;
 //	}
 //	*dest = '\0';
-//	return pret
+//	return pret;
 //}//受限制的字符串拷贝
-//*******************************************
+//////*******************************************
 //char *strncat(char *dest, const char *src, size_t n)
 //{
 //	char *pret = dest;
-//	assert(dest)
-//	assert(src)
+//	assert(dest);
+//	assert(src);
 //	while (*dest)
 //	{
 //		dest++;
@@ -46,8 +46,13 @@
 //	return pret;
 //
 //}
-//int main()in
+//int main()
 //{
+//	const char arr[20]= "abcdef";
+//	char arr1[20] = {};
+//	int sz = strlen(arr);
+//	char* ret = strcpy(arr1, arr);
+//	printf("parr=%s\n", ret);
 //	system("pause");
 //	return 0;
 //}
@@ -75,17 +80,17 @@
 //}
 //int main()
 //{
-//	int arr[10] = { 0 };
-//	int n = &arr[10] - &arr[0];
-//	printf("%d\n", n);
+//	//int arr[10] = { 0 };
+//	//int n = &arr[10] - &arr[0];
+//	//printf("%d\n", n);
+//	//system("pause");
+//	//return 0;//指针减指针为两个指针间元素的个数
+//	char*str = "abcdef";
+//	printf("%d\n", my_strlen(str));
 //	system("pause");
-//	return 0;//指针减指针为两个指针间元素的个数
-	/*char*str = "abcdef";
-	printf("%d\n", my_strlen(str));
-	system("pause");
-	return 0;
-*/
-//}字节对齐
+//	return 0;
+//
+//}//字节对齐
 //*************************面试题***********************************
 //int main()
 //{

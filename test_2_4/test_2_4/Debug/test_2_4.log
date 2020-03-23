@@ -1,13 +1,17 @@
-﻿生成启动时间为 2020/2/4 17:20:45。
-     1>项目“E:\学习\本地仓库\C_Test\test_2_4\test_2_4\test_2_4.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2020/3/23 22:10:54。
+     1>项目“E:\学习\本地仓库\test_C\test_2_4\test_2_4\test_2_4.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          E:\学习\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
+     1>e:\学习\本地仓库\test_c\test_2_4\test_2_4\main.cpp(20): warning C4273: “strncpy”: dll 链接不一致
+                 e:\学习\vs2013\vc\include\string.h(195) : 参见“strncpy”的前一个定义
+     1>e:\学习\本地仓库\test_c\test_2_4\test_2_4\main.cpp(33): warning C4273: “strncat”: dll 链接不一致
+                 e:\学习\vs2013\vc\include\string.h(186) : 参见“strncat”的前一个定义
        Link:
-         E:\学习\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\学习\本地仓库\C_Test\test_2_4\Debug\test_2_4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\学习\本地仓库\C_Test\test_2_4\Debug\test_2_4.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\学习\本地仓库\C_Test\test_2_4\Debug\test_2_4.lib" /MACHINE:X86 Debug\main.obj
-         test_2_4.vcxproj -> E:\学习\本地仓库\C_Test\test_2_4\Debug\test_2_4.exe
-     1>已完成生成项目“E:\学习\本地仓库\C_Test\test_2_4\test_2_4\test_2_4.vcxproj”(Build 个目标)的操作。
+         E:\学习\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\学习\本地仓库\test_C\test_2_4\Debug\test_2_4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\学习\本地仓库\test_C\test_2_4\Debug\test_2_4.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\学习\本地仓库\test_C\test_2_4\Debug\test_2_4.lib" /MACHINE:X86 Debug\main.obj
+         test_2_4.vcxproj -> E:\学习\本地仓库\test_C\test_2_4\Debug\test_2_4.exe
+     1>已完成生成项目“E:\学习\本地仓库\test_C\test_2_4\test_2_4\test_2_4.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.47
+已用时间 00:00:00.46

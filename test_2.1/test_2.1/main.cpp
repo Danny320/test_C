@@ -3,23 +3,23 @@
 #include<stdlib.h>
 #include<string.h>
 #include<assert.h>
-//void move_left(char*str, int k)
-//{
-//	int i = 0;
-//	int len = strlen(str);
-//	if (len <= 1)
-//		return;
-//	for (i = 0; i < k; i++)
-//	{
-//		char tmp = *str;
-//		int j = 0;
-//		for (j = 0; j < len; j++)
-//		{
-//			*(str + j) = *(str + j + 1);
-//		}
-//		*(str + len - 1) = tmp;
-//	}
-//}
+////void move_left(char*str, int k)
+////{
+////	int i = 0;
+////	int len = strlen(str);
+////	if (len <= 1)
+////		return;
+////	for (i = 0; i < k; i++)
+////	{
+////		char tmp = *str;
+////		int j = 0;
+////		for (j = 0; j < len; j++)
+////		{
+////			*(str + j) = *(str + j + 1);
+////		}
+////		*(str + len - 1) = tmp;
+////	}
+////}
 //
 //void reverse(char *left, char *right)
 //{
@@ -51,6 +51,9 @@
 //	system("pause");
 //	return 0;
 //}
+
+
+
 //int is_move(char *s1, const char*s2)
 //{
 //	int len1 = strlen(s1);
@@ -79,25 +82,30 @@
 //		printf("OK\n");
 //	}
 //	else
-	/*{
-		printf("NO\n");
-	}
-	system("pause");
-	return 0;
-}*/
+//	{
+//		printf("NO\n");
+//	}
+//	system("pause");
+//	return 0;
+//}
+
+
+
 //void fun()
 //{
 //	int tmp = 10;
-//	int *p = (int *)(*(&tmp + 1));
+//	int *p = (int *)(*(&tmp + 1));//Ô½½ç·ÃÎÊ
 //	*(p - 1) = 20;
 //}
-//int main()
 //{
 //	int a = 0;
 //	fun();
 //	printf("a=%d\n", a);
 //	return 0;
-//
+//}
+
+
+
 //int* fun()
 //{
 //	int tmp = 2016;
