@@ -1,4 +1,4 @@
-﻿生成启动时间为 2020/3/24 22:46:21。
+﻿生成启动时间为 2020/3/25 13:01:43。
      1>项目“E:\学习\本地仓库\test_C\test_3_24\test_3_24\test_3_24.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          E:\学习\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
@@ -10,4 +10,4 @@
 
 生成成功。
 
-已用时间 00:00:00.35
+已用时间 00:00:00.79

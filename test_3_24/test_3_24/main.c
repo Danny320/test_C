@@ -1,6 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
-
 //≈–∂œ¥Û–°∂À
 //int check_sys()
 //{
@@ -226,4 +225,27 @@
 //{
 //	int z = x + y;
 //	return z;
+//}
+
+
+
+//void print_mul_table(int n)
+//{
+//	int i = 1;
+//	for (i = 1; i <= n; i++)
+//	{
+//		int j = 1;
+//		for (j = 1; j <= i; j++)
+//		{
+//			printf("%d*%d=%2d ", j, i, j*i);
+//		}
+//		printf("\n");
+//	}
+//}
+//int main()
+//{
+//	int i = 0;
+//	scanf("%d", &i);
+//	print_mul_table(i);
+//	return 0;
 //}
