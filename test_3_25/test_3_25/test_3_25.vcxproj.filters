@@ -18,5 +18,17 @@
     <ClCompile Include="test.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="my_strlen.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fac.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Fib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="k_power.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
