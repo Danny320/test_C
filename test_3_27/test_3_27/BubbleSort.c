@@ -1,5 +1,5 @@
-#define _CRT_SECURE_NO_WARNINGS 1
-#include<stdio.h>
+//#define _CRT_SECURE_NO_WARNINGS 1
+//#include<stdio.h>
 //void BubbleSort(int arr[],int sz)
 //{
 //	int i = 0;
@@ -43,3 +43,6 @@
 //	PrintArr(arr, sz);
 //	return 0;
 //}
+
+
+
