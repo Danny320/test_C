@@ -52,17 +52,17 @@
 
 
 
-////int count_one_bit(int num)
-////{
-////	int count = 0;
-////	int i = 0;
-////	for (i = 0; i < 32; i++)
-////	{
-////		if (((num >> i) & 1) == 1)
-////			count++;
-////	}
-////	return count;
-////}
+int count_one_bit(int num)
+{
+	int count = 0;
+	int i = 0;
+	for (i = 0; i < 32; i++)
+	{
+		if (((num >> i) & 1) == 1)
+			count++;
+	}
+	return count;
+}
 //int count_one_bit(int n)
 //{
 //	int count = 0;
@@ -74,15 +74,15 @@
 //	}
 //	return count;
 //}
-//int main()
-//{
-//	int n = 0;
-//	printf("请输入：");
-//	scanf("%d", &n);
-//	int ret = count_one_bit(n);
-//	printf("%d\n", ret);
-//	return 0;
-//}
+int main()
+{
+	int n = 0;
+	printf("请输入：");
+	scanf("%d", &n);
+	int ret = count_one_bit(n);
+	printf("%d\n", ret);
+	return 0;
+}
 
 
 //交换两个变量（不创建临时变量）
@@ -97,3 +97,11 @@
 //	printf("交换后：a=%d,b=%d\n", a, b);
 //	return 0;
 //}
+
+
+
+
+
+
+
+
