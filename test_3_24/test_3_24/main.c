@@ -229,23 +229,24 @@
 
 
 
-//void print_mul_table(int n)
+//³Ë·¨¿Ú¾÷±í
+//void print_mul_table(int line)
 //{
 //	int i = 1;
-//	for (i = 1; i <= n; i++)
+//	for (i = 1; i <= line; i++)
 //	{
 //		int j = 1;
 //		for (j = 1; j <= i; j++)
 //		{
-//			printf("%d*%d=%2d ", j, i, j*i);
+//			printf("%d*%d=%-2d ", j, i, j*i);
 //		}
 //		printf("\n");
 //	}
 //}
 //int main()
 //{
-//	int i = 0;
-//	scanf("%d", &i);
-//	print_mul_table(i);
+//	int line = 0;
+//	scanf("%d", &line);
+//	print_mul_table(line);
 //	return 0;
 //}
