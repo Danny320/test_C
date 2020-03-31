@@ -1,5 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
+#include<string.h>
 //函数递归,自己调用自己，常见错误：栈溢出
 //1.存在限制条件，当满足这个限制条件的时候，递归便不再继续
 //void Print(int n)
@@ -21,21 +22,43 @@
 
 
 
-
-//void reverse_string(char*string)
+//递归
+//void reverse_string(char*str)
 //{
-//	int len = strlen(string);
-//	int tmp = *string;
-//	*string = *(string + len - 1);
-//	*(string + len - 1) = '\0';
-//	if (strlen(string + 1) >= 2)
-//		reverse_string(string + 1);
-//	*(string + len - 1) = tmp;
+//	int tmp = str[0];
+//	int len = strlen(str);
+//	str[0] = str[len-1];
+//	str[len-1] = '\0';
+//	if (strlen(str + 1) >= 2)
+//		reverse_string(str + 1);
+//	*(str + len - 1) = tmp;
+//}
 //
+//int main()
+//{
+//	char arr[20] = "hello bit";
+//	reverse_string(arr);
+//	printf("%s\n", arr);
+//	return 0;
+//}
+//非递归
+//void reverse_string(char *str)
+//{
+//	int sz = strlen(str);
+//	int left = 0;
+//	int right = sz-1;
+//	while (left < right)
+//	{
+//		char tmp = str[left];
+//		str[left] = str[right];
+//		str[right] = tmp;
+//		left++;
+//		right--;
+//	}
 //}
 //int main()
 //{
-//	char arr[20] = "abcdef";
+//	char arr[] = "hello bit";
 //	reverse_string(arr);
 //	printf("%s\n", arr);
 //	return 0;
