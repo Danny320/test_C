@@ -26,15 +26,17 @@
 
 
 
-//打印整数二进制的奇数位和偶数位
+////打印整数二进制的奇数位和偶数位
 //void Printbit(int n)
 //{
 //	int i = 0;
+//	偶数位
 //	for (i = 31; i>=1; i-=2)
 //		{
 //		printf("%d ", (n >> i) & 1);
 //		}
 //	printf("\n");
+//	奇数位
 //	for (i = 30; i >= 0; i -= 2)
 //	{
 //		printf("%d ", (n >> i) & 1);
@@ -52,37 +54,37 @@
 
 
 
-int count_one_bit(int num)
-{
-	int count = 0;
-	int i = 0;
-	for (i = 0; i < 32; i++)
-	{
-		if (((num >> i) & 1) == 1)
-			count++;
-	}
-	return count;
-}
-//int count_one_bit(int n)
+//int count_one_bit(int num)
 //{
 //	int count = 0;
-//	while (n)
+//	int i = 0;
+//	for (i = 0; i < 32; i++)
 //	{
-//		if (n % 2 == 1)
+//		if (((num >> i) & 1) == 1)
 //			count++;
-//		n = n / 2;
 //	}
 //	return count;
 //}
-int main()
-{
-	int n = 0;
-	printf("请输入：");
-	scanf("%d", &n);
-	int ret = count_one_bit(n);
-	printf("%d\n", ret);
-	return 0;
-}
+////int count_one_bit(int n)
+////{
+////	int count = 0;
+////	while (n)
+////	{
+////		if (n % 2 == 1)
+////			count++;
+////		n = n / 2;
+////	}
+////	return count;
+////}
+//int main()
+//{
+//	int n = 0;
+//	printf("请输入：");
+//	scanf("%d", &n);
+//	int ret = count_one_bit(n);
+//	printf("%d\n", ret);
+//	return 0;
+//}
 
 
 //交换两个变量（不创建临时变量）

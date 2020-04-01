@@ -53,15 +53,46 @@ void reverse_str(char arr[], int sz)
 		if (*end != '\0')
 		{
 			start = end + 1;
-			end = start;
+
+
 		}
 	}
 }
 int main()
 {
-	char arr[] = "student a am i";
-	int sz = sizeof(arr) / sizeof(arr[0]);
-	reverse_str(arr, sz);
+	char arr[] = "hello bit";
+	int len = strlen(arr);
+	reverse_str(arr, len);
 	printf("%s\n", arr);
 	return 0;
 }
+//int main()
+//{
+//	int i = -20;
+//	unsigned int j = 10;
+//	printf("%d\n", i + j);
+//}
+
+//int main()
+//{
+//	char a[1000];
+//	int i;
+//	for (i = 0; i < 1000; i++)
+//	{
+//		a[i] = -1 - i;
+//	}
+//	printf("%d", strlen(a));
+//	return 0;
+//}
+
+//unsigned char i = 0;
+//int main()
+//{
+//	for (i = 0; i <= 255; i++)
+//	{
+//		puts("hello world\n");
+//	}
+//	return 0;
+//}
+
+
