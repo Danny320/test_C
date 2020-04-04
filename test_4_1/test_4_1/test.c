@@ -49,22 +49,24 @@
 
 //求Sn = a + aa + aaa + aaaa + aaaaa的前5项之和，其中a是一个数字，
 //例如：2 + 22 + 222 + 2222 + 22222
-//int Add(int a)
+//int Add(int a,int n)
 //{
 //	int i = 0;
 //	int num = 0;
-//	for (i = 0; i < 5; i++)
+//	int tmp = 0;//存储计算好的每位
+//	for (i = 0; i < n; i++)
 //	{
-//		num = num + a;
-//		a = a * 10 + a;
+//		tmp = tmp * 10 + a;
+//		num = num + tmp;
 //	}
 //	return num;
 //}
 //int main()
 //{
 //	int a = 0;
-//	scanf("%d", &a);
-//	int num=Add(a);
+//	int n = 0;
+//	scanf("%d%d", &a,&n);
+//	int num=Add(a,n);
 //	printf("%d\n", num);
 //	return 0;
 //}
@@ -142,4 +144,26 @@
 //	return 0;
 //}
 
+
+
+
+int Add(int a)
+{
+	int i = 0;
+	int num = 0;
+	for (i = 0; i < 5; i++)
+	{
+		num = num + a;
+		a = a * 10 + a;
+	}
+	return num;
+}
+int main()
+{
+	int a = 0;
+	scanf("%d", &a);
+	int num = Add(a);
+	printf("%d\n", num);
+	return 0;
+}
 
