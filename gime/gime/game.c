@@ -1,6 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include "game.h"
 
+
 void InitBoard(char board[ROWS][COLS], int rows, int cols, char set)
 {
 	int i = 0;
